@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document2</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Demo</title>
 </head>
 <body>
-    
+    <div class="main-body">
+        <div class="header">
+            <button class="btn again">Again!</button>
+            <section class="right">
+                <h4>(between 1 and 20)</h4>
+            </section>
+        </div>
+        <div class="intro-body">
+            <section class="intro-heading">
+                <h1>guess my number!</h1>
+            </section>
+            <hr><hr><hr><hr>
+            <div class="inp">?</div>
+        </div>
+        <div class="main">
+            <section class="left-main">
+                <article><input type="number" class="guess"></article>
+                <button class="btn check">check!</button>
+            </section>
+            <section class="right-main">
+                <h1 class="message">Start guessing...</h1>
+                <br>
+                <h3 class="label-score">Score : <span class="score">20</span></h3>
+                <h3 class="label-highscore">Highscore : <span class="highscore">0</span></h3>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
