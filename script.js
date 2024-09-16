@@ -1,4 +1,4 @@
-// document.querySelector('.message').textContent="correct number";
+    // document.querySelector('.message').textContent="correct number";
 // document.querySelector('.score').textContent="19"
 let random=Math.trunc((Math.random()*20));
 let x=20;
